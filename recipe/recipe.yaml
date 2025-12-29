@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: norwegianblue
-  version: "0.23.0"
+  version: "0.24.0"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/norwegianblue-${{ version }}.tar.gz
-  sha256: 430e6cb9dedd10f646ab5d385470738669f9824cbc92af248990a1899dc88b43
+  sha256: 322a5728ce437d6e1571bce726b9e3391cc7ebbb0f48e0f6361666464562a828
 
 build:
   number: 0
